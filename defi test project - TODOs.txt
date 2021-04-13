@@ -1,0 +1,50 @@
+v learn some stuff
+    v dafuq is blockchain -> Decentralised this and that
+    v Ethereum -> blockchain platform with smart contracts
+    v Smart Contract -> transactional agreement in code, basically: "if you run this function, you agree to all terms and conditions applied, and any reprecussions caused by running this function"
+    v Gas Fee -> transactional cost (deployment, transactions, etc)
+    v Solidity -> the language to develop with
+    v Truffle -> the framework for development and testing
+    v web3.js -> the connector to the nodes
+    v Ganache -> local blockchain to test on
+    v Metamask -> crypto wallet manager thing
+    
+v setup Ganache -> install and run, port 7545
+
+v setup Metamask -> Chrome extension, install and run. Account password is 'metamask'
+
+~ setup project
+    v setup Node.js env
+    ~ install Node Modules
+        v truffle (latest 5.3.1) -> compile w/ solc 0.5.16
+        v solc (0.5.16) -> global
+        - web3 (latest ?.?.?) -> requires Visual Studio Desktop development with C++
+        v others
+            v bootstrap (latest 4.6.0)
+            v chai (latest 4.3.4)
+            v chai-as-promised (latest 7.1.1)
+            v chai-bignumber (latest 3.0.0)
+            v lite-server (latest 2.6.1)
+            v nodemon (latest 2.0.7)
+        ? react -> maybe?
+    v setup lite-server -> bs-config.json directories & package.json launch shortcuts
+
+v get Truffle to work -> make some contracts, play with Truffle and Ganache
+    v truffle init -> initialize truffle development environment
+    v truffle compile -> compile w/ solc 0.5.16, to compile the smart contract
+    v truffle migrate --reset -> to re-deploy contracts (costs gas fee)
+    v truffle console -> console to interact with blockchain contracts
+        v {var} = await {contract name}.deployed()
+        v {var}.{function}()
+
+- finish web3 integration -> successfully connecting Ganache local blockchain, Metamask, and the website
+    - successful CRUD
+
+
+
+
+Additional Tasks:
+- meeting every monday night
+- maintain git repo
+- learn more about AJAX await & async functions
+- fix that vscode pragma error that is actually not an error thing
